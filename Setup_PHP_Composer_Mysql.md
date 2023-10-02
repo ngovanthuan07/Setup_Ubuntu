@@ -35,7 +35,7 @@ php -r "unlink('composer-setup.php');"
 sudo mysql -u root
 
 #> MySQL command
-drop user root@localhost;
-create user root@'%' identified with mysql_native_password by '';
-grant all privileges on *.* to root@'%' with grant option;
-flush privileges;
+```drop user root@localhost;```
+```create user root@'%' identified with mysql_native_password by '';```
+```grant all privileges on *.* to root@'%' with grant option;```
+```flush privileges;```
