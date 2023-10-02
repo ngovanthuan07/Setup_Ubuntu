@@ -45,4 +45,8 @@ SHOW PROCEDURE STATUS
 ```
  SHOW ALL PROCEDURE AND FUCNTION
 ```
+## SHOW VALUE 
+```
+DESC <nametable>
+```
 
